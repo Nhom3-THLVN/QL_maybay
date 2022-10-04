@@ -7,7 +7,7 @@ using System.Web.UI.WebControls;
 
 namespace CuoiKyNet
 {
-    public partial class DangNhapxxx : System.Web.UI.Page
+    public partial class DangNhap : System.Web.UI.Page
     {
         VemayBayDataContext dc = new VemayBayDataContext();
         public bool kiemtra(string tdn, string mk)
